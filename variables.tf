@@ -12,6 +12,7 @@ variable "instanceCount" {
 
 variable "tags" {
     default = ["inst1", "inst2"]
+    description = "tags array"
   
 }
 
